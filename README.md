@@ -15,7 +15,9 @@ Fitbit API, unity, web API
 Combine internet of things (IOT) with VR 
 
 # Customer: 
-parents or psychiatrists helping children overcome fears, ads like bug sprays or on skyscrapers, look up funds, military to help soldiers 
+parents or psychiatrists helping children overcome fears, ads like bug sprays or on skyscrapers, military to help soldiers 
+
+Potential Funds: US National Institute of Mental Health, http://www.cpa.ca/researchers/researchfunding/funders 
 
 # Three different modes- 
 Fear for: Spider, snake, heights; 
