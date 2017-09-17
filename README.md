@@ -32,4 +32,4 @@ Snake- Ophidiophobia, or the fear of snakes is the second common phobia affectin
 Height- Acrophobia is the fear of height or fear of falling that causes sufferers to be highly agitated above ground, and interferes with their abilities to leave the environment. 
 
 # What's Next?  
-Congratulations of facing your fears! Having a phobia is perfectly normal and you are not alone in this! You can choose to seek professional help with phobias counsellors and psychologists near you or share your stories on online platforms. Identify your fears and determine your own methods to confront your fears. Good luck! 
+Congratulations on facing your fears! Having a phobia is perfectly normal and you are not alone in this! You can choose to seek professional help with phobias counsellors and psychologists near you or share your stories on online platforms. Identify your fears and determine your own methods to confront your fears. Good luck! 
