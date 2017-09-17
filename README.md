@@ -17,7 +17,7 @@ Fear for: Spider, snake, heights;
 
 # About: 
 
-The goal of this project is to help patients overcome their phobia with exposure therapy. Exposure therapy involves the exposure of the patient to their feared object without any danger to overcome their distress overtime. We picked the three most common fears, spider, snake anbd height. The target audience is 12-18 years old, as most phobias develop at the age of 11. Parents, doctors or professional can guide through the process using the app. The project is built with Unity, C++, Google VR SDK, and Google Cardboard.
+The goal of this project is to help patients overcome their phobia with exposure therapy. Exposure therapy involves the exposure of the patient to their feared object without any danger to overcome their distress overtime. We picked the three most common fears, spider, snake and height. The target audience is 12-18 years old, as most phobias develop at the age of 11. Parents, doctors or professional can guide through the process using the app. The project is built with Unity, C++, Google VR SDK, and Google Cardboard.
 
 # Future Work and Funding 
 We can work with psychiatrists, pediatrician, and researchers on the topic of phobia therapy amongst children. We can easily pair the project with additional hardwares such as Muse and Fitbit to keep track of the changes in patients' physical response (i.e brain waves, blood pressure, heart rate). Doctors would be able to view real-time statstical data on their website to identify any improvements. The amount of time patient stays in the scenario and their qualititative feedback can also be noted. 
