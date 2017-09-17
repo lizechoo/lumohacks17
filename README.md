@@ -24,7 +24,7 @@ We can work with psychologists, pediatrician, and researchers on the topic of ph
 
 The fundings of the project can be divided into two parts: 1) governmental 2) commercial. This research project, to investigate the impact of Virtual Reality on combatting phobias, can apply for funds by agencies such as Canadian Institutes of Health Research (CIHR). The comprehensive list of funding sources can be found at: http://www.cpa.ca/researchers/researchfunding/funders. We can also gather funds commercially. For example, we can collaborate with snake or spider repellent companies to demonstrate their products at the end of the scenes or put ads on the windows of skyscrapers.  
 
-# Information Box 
+# What are the Phobias? 
 Spider- Arachnophobia, or the fear of spiders, is the most common animal phobia around the world. Nearly 31% of U.S population suffer from Arachnophobia.
 
 Snake- Ophidiophobia, or the fear of snakes is the second common phobia affecting 1/3 of human population. It alters people's lifestyle as they avoid outdoor activities, hiking, and travelling. 
