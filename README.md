@@ -1,4 +1,5 @@
-
+# Lumohacks 2017 
+Team Members: Lize Choo, Daphne Liu, Janet Chen, and Michael Goh. 
 
 # About: 
 
