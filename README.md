@@ -1,19 +1,4 @@
 
-# lumohacks17
-24-hour Hackathon project for Lumohacks 2017.
-
-
-# Goal: 
-Help patients with phobias overcome their fears with exposure therepy. 
-
-# Description: 
-Create different levels to allow user to establish goals, sound effects, opt out by turning the scenario into sth entertaining, measure heartbeat with fitbit to opt out when user’s heartbeat is too fast 
-
-# Tools: 
-Google cardboard, unity, web API,
-
-# Three different modes- 
-Fear for: Spider, snake, heights;
 
 # About: 
 
@@ -32,5 +17,6 @@ Snake- Ophidiophobia, or the fear of snakes is the second common phobia affectin
 Height- Acrophobia is the fear of height or fear of falling that causes sufferers to be highly agitated above ground, and interferes with their abilities to leave the environment. 
 
 http://www.fearof.net/top-10-phobias-of-all-time/
+
 # What's Next?  
 Congratulations on facing your fears! Having a phobia is perfectly normal and you are not alone in this! You can choose to seek professional help with phobias counsellors and psychologists near you or share your stories on online platforms. Identify your fears and determine your own methods to confront your fears. Good luck! 
