@@ -1,0 +1,2560 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientEquatorColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientGroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 1
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666666
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &66227839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 66227840}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt013
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &66227840
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 66227839}
+  m_LocalRotation: {x: 0.0000000015996253, y: 0.1435247, z: -0.00009090404, w: 0.98964673}
+  m_LocalPosition: {x: -0.021987729, y: 2.220446e-18, z: 4.8822565e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 69572478}
+  m_Father: {fileID: 805045368}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &69572477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 69572478}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt014
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &69572478
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 69572477}
+  m_LocalRotation: {x: 0.000000007055626, y: -0.036609948, z: 0.00019750236, w: 0.9993296}
+  m_LocalPosition: {x: -0.020063803, y: 0, z: 4.455059e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 155770349}
+  m_Father: {fileID: 66227840}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &101115924
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400044, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.147347033
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_RootGameObject: {fileID: 299104198}
+  m_IsPrefabParent: 0
+--- !u!1 &138247977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 138247978}
+  - component: {fileID: 138247979}
+  - component: {fileID: 138247981}
+  - component: {fileID: 138247982}
+  - component: {fileID: 138247980}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &138247978
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 138247977}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &138247979
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 138247977}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!81 &138247980
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 138247977}
+  m_Enabled: 1
+--- !u!92 &138247981
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 138247977}
+  m_Enabled: 1
+--- !u!124 &138247982
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 138247977}
+  m_Enabled: 1
+--- !u!1 &155770348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 155770349}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt015
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155770349
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 155770348}
+  m_LocalRotation: {x: -0.000000004561851, y: -0.044639435, z: 0.000047930716, w: 0.9990032}
+  m_LocalPosition: {x: -0.018964417, y: 0, z: 4.2109465e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 249845983}
+  m_Father: {fileID: 69572478}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &243696448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 243696449}
+  - component: {fileID: 243696450}
+  m_Layer: 0
+  m_Name: YellowSnake_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &243696449
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 243696448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3167434, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 492780835}
+  - {fileID: 914594924}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &243696450
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11100000, guid: d00c323b5d9582b488f9521a5da7be21,
+    type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 243696448}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400002, guid: 1c715a78c4825ba4b877a0691a3ac7f4, type: 3}
+  m_Animations:
+  - {fileID: 7400002, guid: 1c715a78c4825ba4b877a0691a3ac7f4, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!1 &249845982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 249845983}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt016
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &249845983
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 249845982}
+  m_LocalRotation: {x: -8.8099417e-10, y: -0.040342882, z: -0.00039203704, w: 0.99918586}
+  m_LocalPosition: {x: -0.018414723, y: 0, z: 4.08889e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1381675344}
+  m_Father: {fileID: 155770349}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &266689301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 266689302}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &266689302
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 266689301}
+  m_LocalRotation: {x: 4.3119028e-10, y: 0.031209286, z: -0.00000001380936, w: 0.9995129}
+  m_LocalPosition: {x: -0.026660122, y: 0, z: 5.9197363e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1353608168}
+  m_Father: {fileID: 1885900806}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &279212281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 279212282}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &279212282
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 279212281}
+  m_LocalRotation: {x: -2.580289e-10, y: -0.30053052, z: -0.00000019170425, w: 0.9537722}
+  m_LocalPosition: {x: -0.025560737, y: 0, z: 5.6756237e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1605634245}
+  m_Father: {fileID: 1353608168}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &286705011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 286705012}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt017
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &286705012
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 286705011}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.016765645, y: 0, z: 3.722721e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2021125868}
+  m_Father: {fileID: 512026175}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &290255428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 290255429}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &290255429
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 290255428}
+  m_LocalRotation: {x: -0.0000000061550813, y: 0.073539525, z: 0.00000008347097, w: 0.99729234}
+  m_LocalPosition: {x: -0.02528589, y: 0, z: 5.6145955e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1357299017}
+  m_Father: {fileID: 794877303}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &299104198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 299104199}
+  - component: {fileID: 299104200}
+  m_Layer: 0
+  m_Name: RedSnake_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &299104199
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 299104198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.14734703, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1916773460}
+  - {fileID: 1197261754}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &299104200
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11100000, guid: 77215b6217a36f549b134abeed2c4840,
+    type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 299104198}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400002, guid: d73694d88a1c5164e859a9970ecda434, type: 3}
+  m_Animations:
+  - {fileID: 7400002, guid: d73694d88a1c5164e859a9970ecda434, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!1 &303429768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 303429769}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt09
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &303429769
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 303429768}
+  m_LocalRotation: {x: 0.0000000010654004, y: -0.23420621, z: 0.0000008488223, w: 0.972187}
+  m_LocalPosition: {x: -0.029683433, y: 0, z: 6.5910463e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1001852114}
+  m_Father: {fileID: 1357299017}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &362447641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 362447642}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt013
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &362447642
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 362447641}
+  m_LocalRotation: {x: 0.000000004699267, y: 0.2328133, z: -0.00008598346, w: 0.9725215}
+  m_LocalPosition: {x: -0.021987729, y: 2.220446e-18, z: 4.8822565e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 373867776}
+  m_Father: {fileID: 678887208}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &371025071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 371025072}
+  m_Layer: 0
+  m_Name: GreenSnake01Root_jnt01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &371025072
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 371025071}
+  m_LocalRotation: {x: 8.59333e-17, y: 0.78898585, z: -8.59333e-17, w: 0.6144114}
+  m_LocalPosition: {x: 0.008121269, y: 0.006366391, z: -0.22032404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1007587133}
+  m_Father: {fileID: 1844409366}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &373867775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 373867776}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt014
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &373867776
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 373867775}
+  m_LocalRotation: {x: 0.000000045074135, y: 0.229603, z: 0.00023587179, w: 0.97328436}
+  m_LocalPosition: {x: -0.020063803, y: 0, z: 4.455059e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 601616281}
+  m_Father: {fileID: 362447642}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &374671590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 374671591}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &374671591
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 374671590}
+  m_LocalRotation: {x: 0, y: -0.12911169, z: -0, w: 0.9916301}
+  m_LocalPosition: {x: -0.025835583, y: 0, z: 5.736652e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1008713348}
+  m_Father: {fileID: 1921486266}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &438880587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 438880588}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &438880588
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 438880587}
+  m_LocalRotation: {x: -0.005050376, y: -0.70708877, z: -0.005050376, w: 0.70708877}
+  m_LocalPosition: {x: -0.059049632, y: 0.0023993494, z: 6.3706084e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 781526978}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &460007779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 460007780}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt012
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &460007780
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 460007779}
+  m_LocalRotation: {x: 1.1092686e-13, y: 0.06736492, z: 0.00001906345, w: 0.9977284}
+  m_LocalPosition: {x: -0.020888342, y: -2.220446e-18, z: 4.6381436e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 830935730}
+  m_Father: {fileID: 904614138}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &460007781
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: a174ed9f168137548a00f79a7c70c7ef,
+    type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 715704093}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a13b2fd0306ce394caccc5c2b7c7e52b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_Bones:
+  - {fileID: 371025072}
+  - {fileID: 1007587133}
+  - {fileID: 789693765}
+  - {fileID: 1110600674}
+  - {fileID: 1989928761}
+  - {fileID: 1103866895}
+  - {fileID: 702296471}
+  - {fileID: 1063567197}
+  - {fileID: 1806100776}
+  - {fileID: 898961830}
+  - {fileID: 904614138}
+  - {fileID: 460007780}
+  - {fileID: 830935730}
+  - {fileID: 1921134498}
+  - {fileID: 974840039}
+  - {fileID: 512026175}
+  - {fileID: 286705012}
+  - {fileID: 1624337047}
+  - {fileID: 486660193}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 371025072}
+  m_AABB:
+    m_Center: {x: -0.2031564, y: 0.0007520057, z: 0.00012221932}
+    m_Extent: {x: 0.20741828, y: 0.011947116, z: 0.22562811}
+  m_DirtyAABB: 0
+--- !u!1 &486660192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 486660193}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &486660193
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 486660192}
+  m_LocalRotation: {x: -0.005050376, y: -0.70708877, z: -0.005050376, w: 0.70708877}
+  m_LocalPosition: {x: -0.059049632, y: 0.0023993494, z: 6.3706084e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1624337047}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &492780834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 492780835}
+  m_Layer: 0
+  m_Name: YellowSnake01_geo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492780835
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 492780834}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.040393118, y: 0, z: 0.06039326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 243696449}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &512026174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 512026175}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt016
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &512026175
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 512026174}
+  m_LocalRotation: {x: 1.6057448e-13, y: 0.005982155, z: -0.00038507438, w: 0.99998206}
+  m_LocalPosition: {x: -0.018414723, y: 0, z: 4.08889e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 286705012}
+  m_Father: {fileID: 974840039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &601616280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 601616281}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt015
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &601616281
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 601616280}
+  m_LocalRotation: {x: 0.000000008217101, y: 0.03480609, z: -0.00005098284, w: 0.9993941}
+  m_LocalPosition: {x: -0.018964417, y: 0, z: 4.2109465e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1011593988}
+  m_Father: {fileID: 373867776}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &678887207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 678887208}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt012
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &678887208
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 678887207}
+  m_LocalRotation: {x: -0.0000000014768998, y: 0.07274454, z: 0.0000189487, w: 0.99735063}
+  m_LocalPosition: {x: -0.020888342, y: -2.220446e-18, z: 4.6381436e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 362447642}
+  m_Father: {fileID: 1293883186}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &702296470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 702296471}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &702296471
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 702296470}
+  m_LocalRotation: {x: 2.59789e-16, y: 0.07964824, z: 0.000000082921574, w: 0.9968231}
+  m_LocalPosition: {x: -0.02528589, y: 0, z: 5.6145955e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1063567197}
+  m_Father: {fileID: 1103866895}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &715704093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 715704094}
+  - component: {fileID: 460007781}
+  m_Layer: 0
+  m_Name: GreenSnake01_geo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &715704094
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 715704093}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.040393118, y: 0, z: 0.06039326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2111067921}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &758587818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 758587819}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt020
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &758587819
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 758587818}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -1.110223e-18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1374465212}
+  m_Father: {fileID: 2106093017}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &781526977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 781526978}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt018
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &781526978
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 781526977}
+  m_LocalRotation: {x: 0.0030821168, y: 0.48495862, z: 0.016120262, w: 0.8743831}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 438880588}
+  m_Father: {fileID: 1761391508}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &789693764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 789693765}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &789693765
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 789693764}
+  m_LocalRotation: {x: -2.4068267e-18, y: -0.13624251, z: 3.248e-10, w: 0.9906755}
+  m_LocalPosition: {x: -0.025835583, y: 0, z: 5.736652e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1110600674}
+  m_Father: {fileID: 1007587133}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &794877302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 794877303}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &794877303
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 794877302}
+  m_LocalRotation: {x: 0.00000000611012, y: 0.25266027, z: -0.000000023398528, w: 0.9675551}
+  m_LocalPosition: {x: -0.026660122, y: 0, z: 5.9197363e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 290255429}
+  m_Father: {fileID: 1631874723}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &797796602
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400044, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.316743404
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_RootGameObject: {fileID: 243696448}
+  m_IsPrefabParent: 0
+--- !u!1 &805045367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 805045368}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt012
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &805045368
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 805045367}
+  m_LocalRotation: {x: -0.000000024150287, y: 0.21795602, z: 0.000022403654, w: 0.9759586}
+  m_LocalPosition: {x: -0.020888342, y: -2.220446e-18, z: 4.6381436e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 66227840}
+  m_Father: {fileID: 1611930586}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &819912238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 819912239}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &819912239
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 819912238}
+  m_LocalRotation: {x: -0.005050376, y: -0.70708877, z: -0.005050376, w: 0.70708877}
+  m_LocalPosition: {x: -0.059049632, y: 0.0023993494, z: 6.3706084e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1374465212}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &830935729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 830935730}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt013
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &830935730
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 830935729}
+  m_LocalRotation: {x: 1.4500946e-12, y: 0.22788738, z: -0.000086680404, w: 0.9736875}
+  m_LocalPosition: {x: -0.021987729, y: 2.220446e-18, z: 4.8822565e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1921134498}
+  m_Father: {fileID: 460007780}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &869128547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 869128548}
+  - component: {fileID: 869128549}
+  m_Layer: 0
+  m_Name: YellowSnake01Root_jnt01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &869128548
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 869128547}
+  m_LocalRotation: {x: 8.59333e-17, y: 0.78898585, z: -8.59333e-17, w: 0.6144114}
+  m_LocalPosition: {x: 0.008121269, y: 0.006366391, z: -0.22032404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1921486266}
+  m_Father: {fileID: 914594924}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &869128549
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: d00c323b5d9582b488f9521a5da7be21,
+    type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 869128547}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 11b0f9d70f8d55140a602950afe589fc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 1c715a78c4825ba4b877a0691a3ac7f4, type: 3}
+  m_Bones:
+  - {fileID: 869128548}
+  - {fileID: 1921486266}
+  - {fileID: 374671591}
+  - {fileID: 1008713348}
+  - {fileID: 1631874723}
+  - {fileID: 794877303}
+  - {fileID: 290255429}
+  - {fileID: 1357299017}
+  - {fileID: 303429769}
+  - {fileID: 1001852114}
+  - {fileID: 1293883186}
+  - {fileID: 678887208}
+  - {fileID: 362447642}
+  - {fileID: 373867776}
+  - {fileID: 601616281}
+  - {fileID: 1011593988}
+  - {fileID: 2106093017}
+  - {fileID: 1374465212}
+  - {fileID: 819912239}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: -0.20315638, y: 0.0007520206, z: 0.00012221187}
+    m_Extent: {x: 0.2074183, y: 0.01194703, z: 0.22562808}
+  m_DirtyAABB: 0
+--- !u!1 &898961829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 898961830}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt010
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &898961830
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 898961829}
+  m_LocalRotation: {x: -2.040781e-14, y: -0.2085292, z: -0.0000019346803, w: 0.97801614}
+  m_LocalPosition: {x: -0.025835583, y: 0, z: 5.736652e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 904614138}
+  m_Father: {fileID: 1806100776}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &904614137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 904614138}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt011
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &904614138
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 904614137}
+  m_LocalRotation: {x: 1.1084438e-15, y: -0.040924937, z: -0.0000007699849, w: 0.99916226}
+  m_LocalPosition: {x: -0.02528589, y: 0, z: 5.6145955e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 460007780}
+  m_Father: {fileID: 898961830}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &914594923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 914594924}
+  m_Layer: 0
+  m_Name: YellowSnake_group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &914594924
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 914594923}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 869128548}
+  m_Father: {fileID: 243696449}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &974840038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 974840039}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt015
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &974840039
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 974840038}
+  m_LocalRotation: {x: 5.3385478e-14, y: 0.03687462, z: -0.00004995033, w: 0.9993199}
+  m_LocalPosition: {x: -0.018964417, y: 0, z: 4.2109465e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 512026175}
+  m_Father: {fileID: 1921134498}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1001852113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1001852114}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt010
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1001852114
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 1001852113}
+  m_LocalRotation: {x: 0.000000005427812, y: -0.20156696, z: -0.0000019397557, w: 0.9794747}
+  m_LocalPosition: {x: -0.025835583, y: 0, z: 5.736652e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1293883186}
+  m_Father: {fileID: 303429769}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1007587132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1007587133}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1007587133
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 1007587132}
+  m_LocalRotation: {x: -1.13844256e-17, y: -0.26932466, z: -4.387093e-11, w: 0.9630495}
+  m_LocalPosition: {x: -0.031057667, y: 1.110223e-18, z: 6.8961874e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 789693765}
+  m_Father: {fileID: 371025072}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1008713347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1008713348}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1008713348
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 1008713347}
+  m_LocalRotation: {x: 0, y: 0.04409303, z: -0, w: 0.99902743}
+  m_LocalPosition: {x: -0.025560737, y: 0, z: 5.6756237e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1631874723}
+  m_Father: {fileID: 374671591}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1011593987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1011593988}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt016
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1011593988
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 1011593987}
+  m_LocalRotation: {x: -0.0000000020455306, y: 0.004858819, z: -0.00038438453, w: 0.99998814}
+  m_LocalPosition: {x: -0.018414723, y: 0, z: 4.08889e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2106093017}
+  m_Father: {fileID: 601616281}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1063567196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1063567197}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1063567197
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 1063567196}
+  m_LocalRotation: {x: -1.1887179e-15, y: -0.10973163, z: -0.00000026055235, w: 0.9939613}
+  m_LocalPosition: {x: -0.025560737, y: 0, z: 5.6756237e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1806100776}
+  m_Father: {fileID: 702296471}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1103866894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1103866895}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1103866895
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 1103866894}
+  m_LocalRotation: {x: 8.9320815e-17, y: 0.25748435, z: -0.000000021797486, w: 0.9662825}
+  m_LocalPosition: {x: -0.026660122, y: 0, z: 5.9197363e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 702296471}
+  m_Father: {fileID: 1989928761}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1110600673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1110600674}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1110600674
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 1110600673}
+  m_LocalRotation: {x: -1.9584237e-18, y: 0.037753265, z: -0.0000000013262214, w: 0.99928707}
+  m_LocalPosition: {x: -0.025560737, y: 0, z: 5.6756237e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1989928761}
+  m_Father: {fileID: 789693765}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1131943241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1131943242}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1131943242
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1131943241}
+  m_LocalRotation: {x: 0, y: 0.27453658, z: -0, w: 0.9615767}
+  m_LocalPosition: {x: -0.025560737, y: 0, z: 5.6756237e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1885900806}
+  m_Father: {fileID: 1613410195}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1169321329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1169321330}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1169321330
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1169321329}
+  m_LocalRotation: {x: 0, y: -0.053152554, z: -0, w: 0.9985864}
+  m_LocalPosition: {x: -0.031057667, y: 1.110223e-18, z: 6.8961874e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1613410195}
+  m_Father: {fileID: 1911432571}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1197261753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1197261754}
+  m_Layer: 0
+  m_Name: RedSnake_group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1197261754
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1197261753}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1911432571}
+  m_Father: {fileID: 299104199}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1218639577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1218639578}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt010
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1218639578
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1218639577}
+  m_LocalRotation: {x: -0.0000000046757895, y: 0.025980702, z: 0.0000001799109, w: 0.99966246}
+  m_LocalPosition: {x: -0.025835583, y: 0, z: 5.736652e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1611930586}
+  m_Father: {fileID: 1605634245}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1293883185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1293883186}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt011
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1293883186
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 1293883185}
+  m_LocalRotation: {x: 0.0000000014580978, y: -0.035847668, z: -0.0000007738504, w: 0.9993573}
+  m_LocalPosition: {x: -0.02528589, y: 0, z: 5.6145955e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 678887208}
+  m_Father: {fileID: 1001852114}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1353608167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1353608168}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1353608168
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1353608167}
+  m_LocalRotation: {x: 0.0000000075698345, y: -0.13036855, z: 0.000000057569338, w: 0.9914656}
+  m_LocalPosition: {x: -0.02528589, y: 0, z: 5.6145955e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 279212282}
+  m_Father: {fileID: 266689302}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1357299016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1357299017}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1357299017
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 1357299016}
+  m_LocalRotation: {x: -6.8051736e-10, y: -0.117266506, z: -0.0000002612817, w: 0.9931005}
+  m_LocalPosition: {x: -0.025560737, y: 0, z: 5.6756237e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 303429769}
+  m_Father: {fileID: 290255429}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1374465211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1374465212}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt018
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1374465212
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 1374465211}
+  m_LocalRotation: {x: 0.0030821168, y: 0.48495862, z: 0.016120262, w: 0.8743831}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 819912239}
+  m_Father: {fileID: 758587819}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1381675343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1381675344}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt017
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1381675344
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1381675343}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.016765645, y: 0, z: 3.722721e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1761391508}
+  m_Father: {fileID: 249845983}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1605634244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1605634245}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt09
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1605634245
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1605634244}
+  m_LocalRotation: {x: 5.937784e-10, y: -0.13126074, z: 0.00000035256696, w: 0.9913479}
+  m_LocalPosition: {x: -0.029683433, y: 0, z: 6.5910463e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1218639578}
+  m_Father: {fileID: 279212282}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1611930585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1611930586}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt011
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611930586
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1611930585}
+  m_LocalRotation: {x: -5.7306493e-10, y: 0.16451651, z: -0.0000048876764, w: 0.9863743}
+  m_LocalPosition: {x: -0.02528589, y: 0, z: 5.6145955e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 805045368}
+  m_Father: {fileID: 1218639578}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1613410194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1613410195}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1613410195
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1613410194}
+  m_LocalRotation: {x: 0, y: 0.08634377, z: -0, w: 0.9962654}
+  m_LocalPosition: {x: -0.025835583, y: 0, z: 5.736652e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1131943242}
+  m_Father: {fileID: 1169321330}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1624337046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1624337047}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt018
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1624337047
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 1624337046}
+  m_LocalRotation: {x: 0.0030821168, y: 0.48495862, z: 0.016120262, w: 0.8743831}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 486660193}
+  m_Father: {fileID: 2021125868}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1631874722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1631874723}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1631874723
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 1631874722}
+  m_LocalRotation: {x: 0, y: 0.2078353, z: -0, w: 0.97816384}
+  m_LocalPosition: {x: -0.028858894, y: 0, z: 6.407962e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 794877303}
+  m_Father: {fileID: 1008713348}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1761391507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1761391508}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt020
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1761391508
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1761391507}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -1.110223e-18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 781526978}
+  m_Father: {fileID: 1381675344}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1794791398
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400042, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400042, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400042, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400042, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400042, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400042, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400042, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_RootGameObject: {fileID: 2111067920}
+  m_IsPrefabParent: 0
+--- !u!1 &1806100775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1806100776}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt09
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1806100776
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 1806100775}
+  m_LocalRotation: {x: 6.065449e-15, y: -0.23136407, z: 0.0000008446814, w: 0.97286725}
+  m_LocalPosition: {x: -0.029683433, y: 0, z: 6.5910463e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 898961830}
+  m_Father: {fileID: 1063567197}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1844409365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1844409366}
+  m_Layer: 0
+  m_Name: GreenSnake_group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1844409366
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 1844409365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 371025072}
+  m_Father: {fileID: 2111067921}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &1844409367
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11100000, guid: a174ed9f168137548a00f79a7c70c7ef,
+    type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 2111067920}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!1 &1885900805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1885900806}
+  m_Layer: 0
+  m_Name: RedSnake01_jnt05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1885900806
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1885900805}
+  m_LocalRotation: {x: 0, y: 0.18667962, z: -0, w: 0.98242086}
+  m_LocalPosition: {x: -0.028858894, y: 0, z: 6.407962e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 266689302}
+  m_Father: {fileID: 1131943242}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1911432570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1911432571}
+  - component: {fileID: 1911432572}
+  m_Layer: 0
+  m_Name: RedSnake01Root_jnt01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1911432571
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1911432570}
+  m_LocalRotation: {x: 8.59333e-17, y: 0.78898585, z: -8.59333e-17, w: 0.6144114}
+  m_LocalPosition: {x: 0.008121269, y: 0.006366391, z: -0.22032404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1169321330}
+  m_Father: {fileID: 1197261754}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1911432572
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: 77215b6217a36f549b134abeed2c4840,
+    type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1911432570}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a85bb4eae70565744aab65ec97bce542, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: d73694d88a1c5164e859a9970ecda434, type: 3}
+  m_Bones:
+  - {fileID: 1911432571}
+  - {fileID: 1169321330}
+  - {fileID: 1613410195}
+  - {fileID: 1131943242}
+  - {fileID: 1885900806}
+  - {fileID: 266689302}
+  - {fileID: 1353608168}
+  - {fileID: 279212282}
+  - {fileID: 1605634245}
+  - {fileID: 1218639578}
+  - {fileID: 1611930586}
+  - {fileID: 805045368}
+  - {fileID: 66227840}
+  - {fileID: 69572478}
+  - {fileID: 155770349}
+  - {fileID: 249845983}
+  - {fileID: 1381675344}
+  - {fileID: 781526978}
+  - {fileID: 438880588}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: -0.2031564, y: 0.00075023435, z: 0.00012218952}
+    m_Extent: {x: 0.20741831, y: 0.011946048, z: 0.22562808}
+  m_DirtyAABB: 0
+--- !u!1 &1916773459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1916773460}
+  m_Layer: 0
+  m_Name: RedSnake01_geo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1916773460
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 77215b6217a36f549b134abeed2c4840, type: 2}
+  m_PrefabInternal: {fileID: 101115924}
+  m_GameObject: {fileID: 1916773459}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.040393118, y: 0, z: 0.06039326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 299104199}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1921134497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1921134498}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt014
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1921134498
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 1921134497}
+  m_LocalRotation: {x: 9.379677e-13, y: 0.23733178, z: 0.0002359601, w: 0.97142863}
+  m_LocalPosition: {x: -0.020063803, y: 0, z: 4.455059e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 974840039}
+  m_Father: {fileID: 830935730}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1921486265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1921486266}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1921486266
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 1921486265}
+  m_LocalRotation: {x: 0, y: -0.26750132, z: -0, w: 0.96355754}
+  m_LocalPosition: {x: -0.031057667, y: 1.110223e-18, z: 6.8961874e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 374671591}
+  m_Father: {fileID: 869128548}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1989928760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1989928761}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1989928761
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 1989928760}
+  m_LocalRotation: {x: -1.2840415e-16, y: 0.20190758, z: 0.000000005671679, w: 0.9794046}
+  m_LocalPosition: {x: -0.028858894, y: 0, z: 6.407962e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1103866895}
+  m_Father: {fileID: 1110600674}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2021125867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2021125868}
+  m_Layer: 0
+  m_Name: GreenSnake01_jnt020
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2021125868
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 2021125867}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -1.110223e-18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1624337047}
+  m_Father: {fileID: 286705012}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2106093016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2106093017}
+  m_Layer: 0
+  m_Name: YellowSnake01_jnt017
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2106093017
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: d00c323b5d9582b488f9521a5da7be21, type: 2}
+  m_PrefabInternal: {fileID: 797796602}
+  m_GameObject: {fileID: 2106093016}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.016765645, y: 0, z: 3.722721e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 758587819}
+  m_Father: {fileID: 1011593988}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2111067920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2111067921}
+  - component: {fileID: 1844409367}
+  m_Layer: 0
+  m_Name: GreenSnake_simpleMove01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2111067921
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: a174ed9f168137548a00f79a7c70c7ef, type: 3}
+  m_PrefabInternal: {fileID: 1794791398}
+  m_GameObject: {fileID: 2111067920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 715704094}
+  - {fileID: 1844409366}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

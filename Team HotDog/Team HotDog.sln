@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team HotDog", "Assembly-CSharp.csproj", "{F21D0678-A097-CBFA-8B81-234C36E4C8C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team HotDog", "Assembly-CSharp-Editor.csproj", "{CE73B607-7070-1BA0-08DC-613582FED0E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F21D0678-A097-CBFA-8B81-234C36E4C8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21D0678-A097-CBFA-8B81-234C36E4C8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21D0678-A097-CBFA-8B81-234C36E4C8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21D0678-A097-CBFA-8B81-234C36E4C8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE73B607-7070-1BA0-08DC-613582FED0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE73B607-7070-1BA0-08DC-613582FED0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE73B607-7070-1BA0-08DC-613582FED0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE73B607-7070-1BA0-08DC-613582FED0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

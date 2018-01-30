@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/MainMenu.unity
+    guid: 9a4e0469faf69411298b2667562ff589
+  - enabled: 1
+    path: Assets/_Scenes/Spider.unity
+    guid: dde5358664fce404eaf28383a7612956
+  - enabled: 1
+    path: Assets/_Scenes/Snake.unity
+    guid: bc1d76187c3264502b387bf7ac762562
+  - enabled: 1
+    path: Assets/_Scenes/Heights.unity
+    guid: e98c487ce93ff48fd962fbcf13e8520f
+  - enabled: 1
+    path: Assets/_Scenes/HappyScene.unity
+    guid: 6dae5d0e097374716a76dd8609b99116
